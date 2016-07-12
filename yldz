@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "merhaba..şeklin  tabanı için bir sayı giriniz"
+read limit
+
+for((i=1;i<=limit;i++))
+do
+echo " "
+for((j=1;j<=i;j++))
+do
+ echo -n  "*"
+done
+  echo ""
+done
