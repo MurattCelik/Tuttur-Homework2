@@ -1,12 +1,19 @@
 #!/bin/bash
-
-
-
-for((i=1;i<=$2;i++))
-do
-for((j=1;j<=i;j++))
-do 
- echo -n  "*"
+  
+ while [ "$1" != "" ]; do
+    case $1 in
+        -c | --count )           shift
+                                x=$1
+                                ;;
+    esac
+    shift
 done
-echo ""
- done
+ 
+  for((i=1;i<=x;i++))
+  do
+    for((j=1;j<=i;j++))
+    do
+    echo -n  "*"
+    done
+  echo ""
+  done
