@@ -1,25 +1,27 @@
-#!/bin/bash
-  
- while [ "$1" != "" ]; do
-    case $1 in
-        -c | --count )           shift
-                                x=$1
-                                ;;
-        -s | --shape )         usage
-				b=$2
-                                ;;  
-  esac
-    shift
-done 
-  for((i=0;i<=x;i++))
-  do
-   for((k=0;k<x-i;k++))
-do
-  echo -n  " "
-done
-    for((j=1;j<=2*i-1;j++))
-    do
-    echo -n  "$b"
-    done
-  echo ""
-  done
+#!/bin/bash					#file contents
+
+while [ "$1" != "" ]; do			#"while" condition and start
+	case $1 in				#"case" condition
+		-c | --count )  shift		#we can write one of them conditions
+				x=$1		# x variable definition
+                                ;;		#"case" sentence terminator special characters
+		-s | --shape )  		#we can write one of them conditions
+				b=$2		# b variable definition
+                                ;;  		#"case" sentence terminator special characters
+esac						#case structure finish
+shift						#
+
+done						#while conditions finish
+						
+for((i=0;i<=x;i++))				#the loop formation provides
+do						#for loop the opening
+	for((k=0;k<x-i;k++))			#the loop formation provides
+ 	do					#for loop the opening
+		echo -n  " "			#the screen echo contents prints
+	done					#for loop the finished
+		for((j=1;j<=2*i-1;j++))		#the loop formation provides
+		do				#for loop the opening
+			echo -n  "$b"		#the screen echo contents prints
+		done				#for loop the finished
+	echo ""					#the screen echo contents prints
+done						#for loop the finished
