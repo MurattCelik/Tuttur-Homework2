@@ -9,7 +9,7 @@ while [ "$1" != "" ]; do			#"while" condition and start
 				b=$2		# b variable definition
                                 ;;  		#"case" sentence terminator special characters
 esac						#case structure finish
-shift						#
+shift
 
 done						#while conditions finish
 						
