@@ -1,8 +1,8 @@
 # Tuttur-Homework2
  
-   SHELLDE MANUEL OLUŞTURMAK 
+  SHELLDE MANUEL OLUŞTURMAK 
    
-     İlk önce nano girmek istediğimiz manuelin adını girip manuel sayfasını oluşturuyoruz.
+  İlk önce nano girmek istediğimiz manuelin adını girip manuel sayfasını oluşturuyoruz.
      
  .TH <isim> <bölüm> <zaman> : Bu komutla ana başlık yazılır. Aranılan komutun ve ya dosyanın ismi, hangi bölümde olduğu ve en son değişiklik yapıldığı zaman burada belirtilmektedir.
  .SH "<metin>" : Bu komut bölüm başlığı yapmak için kullanılır. Bütün bölümlerin başlığını ("NAME", "SYNOPSIS",  "DESCRIPTION",...vs) yardım (man) sayfasına bu komut yardımı ile yazdırabiliriz. Metin bölümüne hazırlanacak olan bölümün adı yazılır. Eğer metin bölümünde boşluk yoksa tırnak işaretleri kullanılmasına gerek yoktur.
@@ -16,10 +16,10 @@
  .I "<metin>" : Metinlerin italik yazılmasını sağlar.
  .R : Yazı stili Roman biçiminde yazılır. Genellikle ".IR" (Roman yazı stilinde italik) veya ".BR" (Roman yazı stilinde kalın) şeklinde kullanılır.
  .TP <sütun> : Yazılacak metne kaç sütun yer ayırılacağı belirtilir. Metin bu komutun altına yazılmaktadır.
-  .br : Satırların sonlanadırılmasını sağlar.
-.nf : Normal satır boşluklarını sıkıştırır.
-.fi : Normal satır boşlukları kullanmaya devam edilir. Genelde ".nf" komutundan sonra kullanılır.
-.\" : Yorum satırlarını belirtmek için kullanılır.
+ .br : Satırların sonlanadırılmasını sağlar.
+ .nf : Normal satır boşluklarını sıkıştırır.
+ .fi : Normal satır boşlukları kullanmaya devam edilir. Genelde ".nf" komutundan sonra kullanılır.
+ .\" : Yorum satırlarını belirtmek için kullanılır.
   
      Yağtığımız manel sayfasını oluşturduktan sonra kaydediyoruz.
      Daha sonra man dizisine kopyalıyoruz ve ardından zipleyip işlemimizi bitiriyoruz.
