@@ -36,10 +36,10 @@
  
  **.\" -->>** Yorum satırlarını belirtmek için kullanılır.
   
- Yağtığımız manuel sayfasını oluşturduktan sonra kaydediyoruz.
+#####Yaptığımız manuel sayfasını oluşturduktan sonra kaydediyoruz.
  Daha sonra man dizisine kopyalıyoruz ve ardından zipleyip işlemimizi bitiriyoruz.
     
-#####Örnek olması açısından varsayalım make-star manuel sayfafımızı oluşturduk,kaydettikten sonra aşağıdaki yolu izliyoruz.
+Örnek olması açısından varsayalım make-star manuel sayfafımızı oluşturduk,kaydettikten sonra aşağıdaki yolu izliyoruz.
  
  **-->> cp** make-star /usr/share/man/man8/.make-star.8 burda kopyalıyoruz  (man dizinimizin yolu nerdeyse orayı seçiyoruz)
  
