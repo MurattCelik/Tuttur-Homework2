@@ -4,7 +4,7 @@
    
        İlk önce nano girmek istediğimiz manuelin adını girip manuel sayfasını oluşturmaya başlıyoruz.
      
-###    .TH İSİM BÖLÜM ZAMAN -->> 
+#####   .TH İSİM BÖLÜM ZAMAN -->> 
  Bu komutla ana başlık yazılır. Aranılan komutun ve ya dosyanın ismi, hangi bölümde olduğu ve en son değişiklik yapıldığı zaman burada belirtilmektedir.
  
  .SH  METİN    -->> Bu komut bölüm başlığı yapmak için kullanılır. Bütün bölümlerin başlığını ("NAME", "SYNOPSIS",  "DESCRIPTION",...vs) yardım (man) sayfasına bu komut yardımı ile yazdırabiliriz. Metin bölümüne hazırlanacak olan bölümün adı yazılır. Eğer metin bölümünde boşluk yoksa tırnak işaretleri kullanılmasına gerek yoktur.
