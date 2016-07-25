@@ -6,9 +6,9 @@
      
  .TH <İSİM> <BÖLÜM> <ZAMAN> -->> Bu komutla ana başlık yazılır. Aranılan komutun ve ya dosyanın ismi, hangi bölümde olduğu ve en son değişiklik yapıldığı zaman burada belirtilmektedir.
  
- .SH <METİN> -->> Bu komut bölüm başlığı yapmak için kullanılır. Bütün bölümlerin başlığını ("NAME", "SYNOPSIS",  "DESCRIPTION",...vs) yardım (man) sayfasına bu komut yardımı ile yazdırabiliriz. Metin bölümüne hazırlanacak olan bölümün adı yazılır. Eğer metin bölümünde boşluk yoksa tırnak işaretleri kullanılmasına gerek yoktur.
+ .SH <METİN>    -->> Bu komut bölüm başlığı yapmak için kullanılır. Bütün bölümlerin başlığını ("NAME", "SYNOPSIS",  "DESCRIPTION",...vs) yardım (man) sayfasına bu komut yardımı ile yazdırabiliriz. Metin bölümüne hazırlanacak olan bölümün adı yazılır. Eğer metin bölümünde boşluk yoksa tırnak işaretleri kullanılmasına gerek yoktur.
  
- .SS <METİN> -->> Alt başlık hazırlar. Bu komutla beraber soldan en az 5 karakter boşluk bırakacak şekilde alt başlığı yazdırır. Genel olarak alt başlıkların sadece ilk harfi büyük yazılır. Tekrar ".SH" komutunda olduğu gibi eğer metin bölümünde boşluk yoksa tırnak işaretleri kullanılmasına gerek yoktur.
+ .SS <METİN>   -->> Alt başlık hazırlar. Bu komutla beraber soldan en az 5 karakter boşluk bırakacak şekilde alt başlığı yazdırır. Genel olarak alt başlıkların sadece ilk harfi büyük yazılır. Tekrar ".SH" komutunda olduğu gibi eğer metin bölümünde boşluk yoksa tırnak işaretleri kullanılmasına gerek yoktur.
  
  .P -->> Yeni paragraf başlatmak için kullanılır. ".P" komutundan sonraki satırda metin yazılmaya başlanır.
  
