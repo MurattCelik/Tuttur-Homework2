@@ -1,6 +1,6 @@
 #Tuttur-Homework2
  
-                                    ## SHELLDE MANUEL OLUŞTURMAK 
+##                                   SHELLDE MANUEL OLUŞTURMAK 
    
        İlk önce nano girmek istediğimiz manuelin adını girip manuel sayfasını oluşturmaya başlıyoruz.
      
