@@ -24,7 +24,7 @@
  
  **.I METİN -->>** Metinlerin italik yazılmasını sağlar.
  
- **.R -->>**Yazı stili Roman biçiminde yazılır. Genellikle **".IR" **(Roman yazı stilinde italik) veya **".BR"** (Roman yazı stilinde kalın) şeklinde kullanılır.
+ **.R -->>**Yazı stili Roman biçiminde yazılır. Genellikle **.IR**(Roman yazı stilinde italik) veya **.BR** (Roman yazı stilinde kalın) şeklinde kullanılır.
  
  **.TP SÜTUN -->>** Yazılacak metne kaç sütun yer ayırılacağı belirtilir. Metin bu komutun altına yazılmaktadır.
  
@@ -32,7 +32,7 @@
  
  **.nf -->>** Normal satır boşluklarını sıkıştırır.
  
- **.fi -->>** Normal satır boşlukları kullanmaya devam edilir. Genelde **".nf"** komutundan sonra kullanılır.
+ **.fi -->>** Normal satır boşlukları kullanmaya devam edilir. Genelde **.nf** komutundan sonra kullanılır.
  
  **.\" -->>** Yorum satırlarını belirtmek için kullanılır.
   
@@ -40,6 +40,6 @@
     Daha sonra man dizisine kopyalıyoruz ve ardından zipleyip işlemimizi bitiriyoruz.
     
     Örnek olması açısından varsayalım make-star manuel sayfamız var.
-    **-->> cp** make-star /usr/share/man/man8/.make-star.8   (man dizinimizin yolu nerdeyse orayı seçiyoruz)
-    **-->> gzip**/usr-/share/man/man8/make-star.8 burda zipliyoruz
-    ve manulemiz artık hazır  -->> **man make-star**
+    **-->> cp make-star /usr/share/man/man8/.make-star.8   (man dizinimizin yolu nerdeyse orayı seçiyoruz)
+    **-->> gzip/usr-/share/man/man8/make-star.8 burda zipliyoruz
+    ve manulemiz artık hazır  -->> ** man make-star **
