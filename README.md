@@ -1,6 +1,7 @@
 # Tuttur-Homework2
  
    SHELLDE MANUEL OLUŞTURMAK 
+   
      İlk önce nano girmek istediğimiz manuelin adını girip manuel sayfasını oluşturuyoruz.
      
   .TH <isim> <bölüm> <zaman> : Bu komutla ana başlık yazılır. Aranılan komutun ve ya dosyanın ismi, hangi bölümde olduğu ve en son değişiklik yapıldığı zaman burada belirtilmektedir.
