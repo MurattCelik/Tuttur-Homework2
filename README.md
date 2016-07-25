@@ -1,6 +1,6 @@
 ###Tuttur-Homework2
  
-    #                                     SHELLDE MANUEL OLUŞTURMAK 
+ #                                     SHELLDE MANUEL OLUŞTURMAK 
    
        İlk önce nano girmek istediğimiz manuelin adını girip manuel sayfasını oluşturmaya başlıyoruz.
      
@@ -36,10 +36,10 @@
  
  **.\" -->>** Yorum satırlarını belirtmek için kullanılır.
   
-    Yağtığımız manuel sayfasını oluşturduktan sonra kaydediyoruz.
-    Daha sonra man dizisine kopyalıyoruz ve ardından zipleyip işlemimizi bitiriyoruz.
+ Yağtığımız manuel sayfasını oluşturduktan sonra kaydediyoruz.
+ Daha sonra man dizisine kopyalıyoruz ve ardından zipleyip işlemimizi bitiriyoruz.
     
-    Örnek olması açısından varsayalım make-star manuel sayfamız var.
-    -->> cp make-star /usr/share/man/man8/.make-star.8   (man dizinimizin yolu nerdeyse orayı seçiyoruz)
-    -->> gzip/usr-/share/man/man8/make-star.8 burda zipliyoruz
-    ve manulemiz artık hazır  -->> man make-star
+ Örnek olması açısından varsayalım make-star manuel sayfamız var.
+ **-->> cp** make-star /usr/share/man/man8/.make-star.8   (man dizinimizin yolu nerdeyse orayı seçiyoruz)
+ **-->> gzip** /usr-/share/man/man8/make-star.8 burda zipliyoruz
+ ve manulemiz artık hazır  -->> **man make-star**
