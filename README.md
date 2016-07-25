@@ -36,7 +36,7 @@
  
  .\" : Yorum satırlarını belirtmek için kullanılır.
   
-     Yağtığımız manel sayfasını oluşturduktan sonra kaydediyoruz.
+     Yağtığımız manuel sayfasını oluşturduktan sonra kaydediyoruz.
      Daha sonra man dizisine kopyalıyoruz ve ardından zipleyip işlemimizi bitiriyoruz.
     
     Örnek olması açısından varsayalım make-star manuel sayfamız var.
