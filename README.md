@@ -2,7 +2,7 @@
  
 ##                                     SHELLDE MANUEL OLUŞTURMAK 
    
-       İlk önce nano girmek istediğimiz manuelin adını girip manuel sayfasını oluşturmaya başlıyoruz.
+ #########      İlk önce nano girmek istediğimiz manuelin adını yazıp manuel sayfasına giriyoruz.Aşağıdaki yazı yazma kurallarına göre manuel sayfasını oluşturuyoruz.
      
  **.TH İSİM BÖLÜM ZAMAN -->>** Bu komutla ana başlık yazılır. Aranılan komutun ve ya dosyanın ismi, hangi bölümde olduğu ve en son değişiklik yapıldığı zaman burada belirtilmektedir.
  
