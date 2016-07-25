@@ -8,9 +8,9 @@
  
  **.SH  METİN    -->>** Bu komut bölüm başlığı yapmak için kullanılır. Bütün bölümlerin başlığını ("NAME", "SYNOPSIS",  "DESCRIPTION",...vs) yardım (man) sayfasına bu komut yardımı ile yazdırabiliriz. Metin bölümüne hazırlanacak olan bölümün adı yazılır. Eğer metin bölümünde boşluk yoksa tırnak işaretleri kullanılmasına gerek yoktur.
  
- **.SS METİN  -->>** Alt başlık hazırlar. Bu komutla beraber soldan en az 5 karakter boşluk bırakacak şekilde alt başlığı yazdırır. Genel olarak alt başlıkların sadece ilk harfi büyük yazılır. Tekrar ".SH" komutunda olduğu gibi eğer metin bölümünde boşluk yoksa tırnak işaretleri kullanılmasına gerek yoktur.
+ **.SS METİN  -->>** Alt başlık hazırlar. Bu komutla beraber soldan en az 5 karakter boşluk bırakacak şekilde alt başlığı yazdırır. Genel olarak alt başlıkların sadece ilk harfi büyük yazılır. Tekrar **".SH"** komutunda olduğu gibi eğer metin bölümünde boşluk yoksa tırnak işaretleri kullanılmasına gerek yoktur.
  
- **.P -->>** Yeni paragraf başlatmak için kullanılır. ".P" komutundan sonraki satırda metin yazılmaya başlanır.
+ **.P -->>** Yeni paragraf başlatmak için kullanılır. **".P"** komutundan sonraki satırda metin yazılmaya başlanır.
  
  **.IP ÖĞE -->>** Bu komutla daha içerden paragraf başlatılır fakat yazılan öğe bu paragrafın en sol tarafına yani eski paragraf düzenine göre baş tarafa koyulur ve yazılacak  metin daha içeriden başlar. Eğer öğe kısmı boşluk içermiyorsa tırnak kullanımına gerek kalmamaktadır.
  
@@ -24,7 +24,7 @@
  
  **.I METİN -->>** Metinlerin italik yazılmasını sağlar.
  
- **.R -->>**Yazı stili Roman biçiminde yazılır. Genellikle ".IR" (Roman yazı stilinde italik) veya ".BR" (Roman yazı stilinde kalın) şeklinde kullanılır.
+ **.R -->>**Yazı stili Roman biçiminde yazılır. Genellikle **".IR" **(Roman yazı stilinde italik) veya **".BR"** (Roman yazı stilinde kalın) şeklinde kullanılır.
  
  **.TP SÜTUN -->>** Yazılacak metne kaç sütun yer ayırılacağı belirtilir. Metin bu komutun altına yazılmaktadır.
  
@@ -32,7 +32,7 @@
  
  **.nf -->>** Normal satır boşluklarını sıkıştırır.
  
- **.fi -->>** Normal satır boşlukları kullanmaya devam edilir. Genelde ".nf" komutundan sonra kullanılır.
+ **.fi -->>** Normal satır boşlukları kullanmaya devam edilir. Genelde **".nf"** komutundan sonra kullanılır.
  
  **.\" -->>** Yorum satırlarını belirtmek için kullanılır.
   
@@ -40,6 +40,6 @@
     Daha sonra man dizisine kopyalıyoruz ve ardından zipleyip işlemimizi bitiriyoruz.
     
     Örnek olması açısından varsayalım make-star manuel sayfamız var.
-    -->>*cp* make-star /usr/share/man/man8/.make-star.8   (man dizinimizin yolu nerdeyse orayı seçiyoruz)
-    -->>*gzip* /usr-/share/man/man8/make-star.8 burda zipliyoruz
-    ve manulemiz artık hazır  -->> man make-star
+    **-->>cp** make-star /usr/share/man/man8/.make-star.8   (man dizinimizin yolu nerdeyse orayı seçiyoruz)
+    **-->>gzip**/usr-/share/man/man8/make-star.8 burda zipliyoruz
+    ve manulemiz artık hazır  -->> **man make-star**
