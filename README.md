@@ -41,7 +41,7 @@
     
  Örnek olması açısından varsayalım make-star manuel sayfafımızı oluşturduk,kaydettikten sonra aşağıdaki yolu izliyoruz.
  
- **-->> cp** make-star /usr/share/man/man8/.make-star.8   (man dizinimizin yolu nerdeyse orayı seçiyoruz)
+ **-->> cp** make-star /usr/share/man/man8/.make-star.8 burda kopyalıyoruz  (man dizinimizin yolu nerdeyse orayı seçiyoruz)
  
  **-->> gzip** /usr-/share/man/man8/make-star.8 burda zipliyoruz
  
