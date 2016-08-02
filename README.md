@@ -1,6 +1,5 @@
-# Tuttur-Homework2
+### Tuttur-Homework2
 
-Yenistar branch'inde yenistar commitimi
+              *Yenistar branch'inde yenistar commitimi*
 
-Dosya çalıştırmayla aynı ayna tabanı kullanıcının girdiği bir şeklin 
-yazdırılması
+Dosya çalıştırmayla aynı ayna kullanıcının girdiği -c parametresinin satır sayısını,-s parametresi ise şeklin hangi ifade ile yazılmasını oluşturan branchtir.
