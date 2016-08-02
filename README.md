@@ -1,8 +1,8 @@
-###Tuttur-Homework2
+###Tuttur-Homework-2
 ##BU DEPODA
        
-       Star Branchi
+Star Branchi
        
-       Helloworld Branchi
+Helloworld Branchi
        
-       StarWithOptionalParameters Branchi
+StarWithOptionalParameters Branchi
