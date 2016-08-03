@@ -1,5 +1,5 @@
 ###Tuttur-Homework-2
-##BU DEPODA
+##Bu Depoda Bulunan BrancH'ler
        
 Star Branchi
        
